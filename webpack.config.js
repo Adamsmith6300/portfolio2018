@@ -34,7 +34,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(?:png|jpg|svg)$/,
+        test: /\.(?:png|jpg|svg|jpeg)$/,
         loader: 'url-loader',
         query: {
           // Inline images smaller than 10kb as data URIs
@@ -44,8 +44,9 @@ module.exports = {
     ]
   },
   output: {
-    path: __dirname + '/src/',
-    filename: "client.min.js"
+    path: __dirname + '/public/',
+    filename: "client.min.js",
+    publicPath: '/public/'
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),

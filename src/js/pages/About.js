@@ -11,7 +11,7 @@ export default class About extends React.Component {
         <Header as='h1' textAlign='center'>About Adam</Header>
         <Grid centered padded>
           <Grid.Column mobile={16} tablet={8} computer={8}>
-            <Image src='./assets/images/me.jpeg' fluid />
+            <Image className={css.me} fluid />
           </Grid.Column>
           <Grid.Column mobile={16} tablet={8} computer={8}>
             <p className={css.content}>{aboutMe}</p>
@@ -26,7 +26,7 @@ export default class About extends React.Component {
               </List>
           </Grid.Column>
           <Grid.Column mobile={16} tablet={8} computer={8}>
-            <Image src='./assets/images/oven.jpg' fluid />
+            <Image className={css.oven} fluid />
           </Grid.Column>
           <Grid.Column mobile={16} tablet={8} computer={8}>
             <Header as='h2'>My Interests:</Header>
@@ -42,7 +42,7 @@ export default class About extends React.Component {
               </List>
           </Grid.Column>
           <Grid.Column mobile={16} tablet={8} computer={8}>
-            <Image src='./assets/images/meandtal.jpg' fluid />
+            <Image className={css.meandtal} fluid />
           </Grid.Column>
         </Grid>
       </div>

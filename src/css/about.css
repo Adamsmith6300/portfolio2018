@@ -1,3 +1,15 @@
 .content {
   font-size: 2rem!important;
 }
+
+.me {
+  content:url("../assets/images/me.jpeg");
+}
+
+.oven {
+  content:url("../assets/images/oven.jpg");
+}
+
+.meandtal {
+  content:url("../assets/images/meandtal.jpg");
+}
