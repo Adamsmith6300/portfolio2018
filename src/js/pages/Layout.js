@@ -1,15 +1,12 @@
 import React from "react";
-import { Link } from "react-router";
+import MainMenu from "../components/Menu";
 
 export default class Layout extends React.Component {
   render(){
     return (
       <div>
-        <h1>Adam Portfolio</h1>
+        <MainMenu/>
         {this.props.children}
-        <Link to="/">Projects</Link>
-        <Link to="skills">Skills</Link>
-        <Link to="about">About</Link>
       </div>
     );
   }

@@ -1,0 +1,75 @@
+
+.blurbStyles {
+  font-size: 1.5em;
+  padding: 0 1.5em .78571429em 1.5em;
+  margin: 0px;
+}
+
+.col {
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0px 0px 20px 0px!important;
+}
+
+.buttonGroup{
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+  border: none;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.Yams {
+  background: url('../assets/images/yams.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.Surfin{
+  background: url('../assets/images/surfin.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.PlantMister{
+  background: url('../assets/images/plantmister2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.RandomWalker {
+  background: url('../assets/images/randomwalker.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.DrawStar {
+  background: url('../assets/images/drawStarJava.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.MatricesFun {
+  background: url('../assets/images/matricesfun.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.Calendar {
+  background: url('../assets/images/calendar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}

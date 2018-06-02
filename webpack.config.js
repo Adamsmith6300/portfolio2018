@@ -20,6 +20,26 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(?:png|jpg|svg)$/,
+        loader: 'url-loader',
+        query: {
+          // Inline images smaller than 10kb as data URIs
+          limit: 10000
+        }
       }
     ]
   },
@@ -31,5 +51,5 @@ module.exports = {
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccirenceOrderPlugin(),
     new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
-  ],
+  ]
 }
