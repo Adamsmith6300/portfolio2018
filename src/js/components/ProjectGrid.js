@@ -57,8 +57,8 @@ var projectsInfo = [
     desc: "One of my first projects I wrote with Vanilla Javascript. A simple calendar that allows you to add notes. (Personal Project)",
     show: {},
     isLive: {display: 'none'},
-    glink: 'https://github.com/Adamsmith6300/portfolio/tree/master/calendar',
-    plink: ''
+    glink: 'https://github.com/Adamsmith6300/calendar',
+    plink: 'https://peaceful-chamber-99504.herokuapp.com/'
   }
 ]
 
